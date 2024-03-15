@@ -1,0 +1,64 @@
+body {
+  padding: 50px 0px;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url(./elevated-view-yellow-cardboard-paper-blue-backdrop.jpg);
+  position: relative;
+  background-position: center;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.container {
+  width: 90%;
+  max-width: 100%;
+  /* height: 400px; */
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+
+}
+h1 {
+  font-size: 35px;
+  color: #800000;
+}
+
+button {
+  background: #db34b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 30px;
+  position: fixed;
+  left: 43%;
+  top: 60%;
+  font-size: 18px;
+  
+}
+button::after {
+  font-family: FontAwesome;
+  content: "\f27b";
+  color: #2e3130;
+  font-size: 18px;
+  padding-left: 7px;
+}
+button:hover {
+  background: #2980b9;
+}
+
+#quote {
+  font-size: 18px;
+    color: rgb(14 161 57);
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+}
